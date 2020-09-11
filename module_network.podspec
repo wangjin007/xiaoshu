@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'module_network'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of module_network.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xiaoshu/module_network'
+  s.homepage         = 'https://github.com/wangjin007/xiaoshu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaoshu' => 'xiaoshu@xiaoyezi.com' }
-  s.source           = { :git => 'ssh://codereview.xiaoyezi.com:29418/moduleNetwork-iOS', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wangjin007/xiaoshu', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.dependency       'AFNetworking', '~> 3.2.1'
 
-  s.source_files            = '**/*.{h,m}'
+  s.source_files        = 'module_network/**/*.{h,m}'
 
   #s.subspec 'module_network' do |ss|
   #    ss.source_files = 'module_network/**/*.{h,m}'
